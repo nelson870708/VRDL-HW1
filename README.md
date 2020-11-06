@@ -35,7 +35,27 @@ data
 It is going to split the training data randomly to generate a new training data and valid data in the data directory. The ratio of the training data and valid data is 8 : 2
 
 ```
-$ python3 preprocessing
+$ python3 preprocessing.py
 ```
 
 ## Training
+I provide 2 model for the task. One is ResNet50, and the other is DenseNet201.
+You can run the ResNet50 model by following
+```
+$ python3 ResNet50.py
+```
+You can run the DenseNet201 model by following
+```
+$ python3 DenseNet201.py
+```
+
+## Make Submission
+There are two python file to make different submission
+You can run make_submission_ResNet50 to make a submission for ResNet50 model
+```
+$ python3 make_submission_ResNet50.py
+```
+You can run make_submission_ResNet50 to make a submission for DenseNet201 model
+```
+$ python3 make_submission_DenseNet201.py
+```
