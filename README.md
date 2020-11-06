@@ -8,7 +8,7 @@ The following specs were used to create the original solution.
 - NVIDIA RTX 2070
 
 ## Installation
-All requirements should be detailed in requirements.txt. Using Anaconda is strongly recommended.
+All requirements should be detailed in requirements.txt. Using Anaconda is strongly recommended. {envs_name} is the new environment name which you should assigned it.
 ```
 conda create -n {envs_name} python=3.6
 source activate {envs_name}
