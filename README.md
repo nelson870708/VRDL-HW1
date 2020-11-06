@@ -1,5 +1,5 @@
 # VRDL-HW1
-Homework in NCTU VRDL
+Homework1 in NCTU VRDL
 
 ## Hardware
 The following specs were used to create the original solution.
